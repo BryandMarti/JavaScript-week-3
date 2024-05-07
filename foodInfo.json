@@ -1,0 +1,187 @@
+  "dog_foods": [
+    {
+      "name": "Acana Grasslands",
+      "brand": "Acana",
+      "flavors": ["Lamb", "Duck", "Fish"],
+      "size_options": ["2kg", "6kg", "11.4kg"],
+      "price": {
+        "2kg": 9.99,
+        "6kg": 14.99,
+        "11.4kg": 19.99
+      },
+      "ingredients": [
+        "Deboned lamb",
+        "Deboned duck",
+        "Whole eggs",
+        "Sun-cured alfalfa",
+        "Dried kelp",
+        "Chicory root",
+        "Spinach",
+        "Tomatoes",
+        "Apples",
+        "Blueberries"
+      ]
+    },
+    {
+      "name": "Blue Buffalo Wilderness",
+      "brand": "Blue Buffalo",
+      "flavors": ["Chicken", "Salmon", "Duck"],
+      "size_options": ["2kg", "5kg", "11kg"],
+      "price": {
+        "2kg": 14.99,
+        "5kg": 19.99,
+        "11kg": 29.99
+      },
+      "ingredients": [
+        "Deboned chicken",
+        "Chicken meal",
+        "Turkey meal",
+        "Tapioca starch",
+        "Peas",
+        "Potatoes",
+        "Dried chicory root",
+        "Blueberries",
+        "Cranberries",
+        "Apples"
+      ]
+    },
+    {
+      "name": "Royal Canin Medium Adult",
+      "brand": "Royal Canin",
+      "flavors": ["Chicken", "Lamb", "Rice"],
+      "size_options": ["3kg", "10kg", "15kg"],
+      "price": {
+        "3kg": 14.99,
+        "10kg": 24.99,
+        "15kg": 35.99
+      },
+      "ingredients": [
+        "Chicken by-product meal",
+        "Brewers rice",
+        "Wheat gluten",
+        "Chicken fat",
+        "Corn",
+        "Wheat",
+        "Corn gluten meal",
+        "Natural flavors",
+        "Dried plain beet pulp"
+      ]
+    },
+    {
+      "name": "Purina Pro Plan Focus Adult",
+      "brand": "Purina",
+      "flavors": ["Chicken", "Salmon", "Turkey"],
+      "size_options": ["2.5kg", "7kg", "13kg"],
+      "price": {
+        "2.5kg": 9.99,
+        "7kg": 15.99,
+        "13kg": 22.99
+      },
+      "ingredients": [
+        "Chicken",
+        "Rice",
+        "Corn gluten meal",
+        "Poultry by-product meal",
+        "Whole grain wheat",
+        "Animal fat",
+        "Soybean meal",
+        "Fish meal",
+        "Dried yeast",
+        "Dried egg product"
+      ]
+    },
+    {
+      "name": "Hill's Science Diet Adult",
+      "brand": "Hill's Science Diet",
+      "flavors": ["Chicken", "Beef", "Lamb"],
+      "size_options": ["3kg", "7kg", "12kg"],
+      "price": {
+        "3kg": 9.99,
+        "7kg": 16.99,
+        "12kg": 23.99
+      },
+      "ingredients": [
+        "Chicken",
+        "Whole grain wheat",
+        "Cracked pearled barley",
+        "Whole grain sorghum",
+        "Whole grain corn",
+        "Corn gluten meal",
+        "Chicken meal",
+        "Chicken fat",
+        "Chicken liver flavor"
+      ]
+    },
+    {
+      "name": "Taste of the Wild High Prairie",
+      "brand": "Taste of the Wild",
+      "flavors": ["Bison", "Venison", "Beef"],
+      "size_options": ["2kg", "6kg", "13kg"],
+      "price": {
+        "2kg": 7.99,
+        "6kg": 13.99,
+        "13kg": 22.99
+      },
+      "ingredients": [
+        "Buffalo",
+        "Lamb meal",
+        "Chicken meal",
+        "Sweet potatoes",
+        "Peas",
+        "Potatoes",
+        "Canola oil",
+        "Egg product",
+        "Yeast",
+        "Tomato pomace"
+      ]
+    }
+  ]
+}
+[
+    {
+        "id": 1,
+        "name": "Premium Dog Food",
+        "type": "Dog",
+        "brand": "Healthy Paws",
+        "description": "A premium blend of high-quality ingredients designed to meet the nutritional needs of adult dogs.",
+        "price": 29.99,
+        "image": "premium_dog_food.jpg",
+        "available": true,
+        "tags": [
+            "dog",
+            "premium",
+            "adult"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Grain-Free Cat Food",
+        "type": "Cat",
+        "brand": "Purrfect Eats",
+        "description": "A grain-free formula made with real chicken and essential nutrients for a healthy feline diet.",
+        "price": 24.99,
+        "image": "grain_free_cat_food.jpg",
+        "available": true,
+        "tags": [
+            "cat",
+            "grain-free",
+            "chicken"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Fish Treats",
+        "type": "Fish",
+        "brand": "Aquatic Delights",
+        "description": "Delectable fish treats suitable for a variety of freshwater and saltwater fish species.",
+        "price": 9.99,
+        "image": "fish_treats.jpg",
+        "available": true,
+        "tags": [
+            "fish",
+            "treats",
+            "aquatic"
+        ]
+    }
+]
+>>>>>>> fa2dfe74d4320e2fef79448277b1fe31d4168085
