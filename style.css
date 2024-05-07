@@ -1,12 +1,11 @@
-<<<<<<< HEAD
 #heroImg {
   width: 100%;
   width: -moz-available;   
   width: -webkit-fill-available; 
   width: fill-available;
 }
-=======
-/* @media screen and (max-width: 375px) {
+
+ @media screen and (max-width: 375px) {
   
 
 #hamburger-nav {
@@ -90,16 +89,12 @@
   transform: none;
 }
 
-} */
+}
 
 * {
   margin: 0;
   padding: 0;
 }
-
-#main
-
-
 
 .header {
   background-color: aqua; 
@@ -109,6 +104,3 @@
   display: block;
   background-color: brown;
 }
-
-
->>>>>>> fa2dfe74d4320e2fef79448277b1fe31d4168085
