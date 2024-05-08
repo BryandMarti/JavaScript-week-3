@@ -4,31 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Pets & Kibbles</title>
+    <link rel="stylesheet" href="@query.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="animations.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="icon" href="/files for photoshop/Pizza logo.png">
+    <title>Deb's Pizza</title>
 </head>
 <body>
   <header id="header" role="banner">
-    <div>
-      <div class="headerTop">
-        <div class="headerTopJustifyAlign">
-          <nav class="headerTopNav">
-            <ul>
-              <li>Dogs</li>
-              <li>Cats</li>
-              <li>Fishes</li>
-            </ul>
-          </nav>
-          <div class="">
-            <button>
-              
-            </button>
-          </div>
-        </div>
+    <div class="bannerLogo">
+      <img id="Logo" src="/files for photoshop/Pizza logo.png" alt="Pizza Logo">
+    </div>
+    <div class="headerTop">
+      <nav class="headerTopNav">
+        <ul id="unOrderNavLink">
+          <li class="listItems"><a id="home"  href="home.html">Home Page</a></li>
+          <li class="listItems"><a id="product"  href="products.html">Pick a Pizza</a></li>
+          <li class="listItems"><a id="contact"  href="contact.html">Contact Me</a></li>
+        </ul>
+      </nav>
+      <div id="search">
+        <form class="searchForm">
+          <input type="text" placeholder="Search.." name="search2">
+        </form>
       </div>
     </div>
   </header>
   <main>
-    <img id="heroImg" src="/files/1920-x-1080.jpeg" alt="background-Hero">
+    <img id="heroImg" src="/files for photoshop/Hero Image.jpg" alt="background-Hero">
+    <div>
+
+    </div>
+    <section class="ringImg">
+      <div id="images">
+        <span style="--i:1;"><img src="/files for photoshop/Pizza Join Photos/Buffalo Chicken Cheese Pizza.png" alt="Buffalo Chicken Cheese Pizza"></span>
+        <span style="--i:2;"><img src="/files for photoshop/Pizza Join Photos/Cheese and Onions Pizza.png" alt="Cheese and Onions Pizza"></span>
+        <span style="--i:3;"><img src="/files for photoshop/Pizza Join Photos/Ham and Cheese.png" alt="Ham and Cheese"></span>
+        <span style="--i:4;"><img src="/files for photoshop/Pizza Join Photos/Mushruronie Pizza.png" alt="Mushruronie Pizza"></span>
+        <span style="--i:5;"><img src="/files for photoshop/Pizza Join Photos/Peperoni Pizza.png" alt="Peperoni Pizza"></span>
+        <span style="--i:6;"><img src="/files for photoshop/Pizza Join Photos/Portobello Pizza.png" alt="Portobello Pizza"></span>
+        <span style="--i:7;"><img src="/files for photoshop/Pizza Join Photos/Tomato Pizza.png" alt="Tomato Pizza"></span>
+        <span style="--i:8;"><img src="/files for photoshop/Pizza Join Photos/Vegeteronie Pizza.png" alt="Vegeteronie Pizza"></span>
+      </div>
+    </section>
   </main>
+  <footer>
+    <section id="footerSection">
+      <div id="leftLocation">
+        <h3>LOCATION</h3>
+        <p>73 Dreamers Street blvd<br> Charlotte, NC <br>28204</p>
+      </div>
+      <div id="midHours">
+        <h3>HOURS</h3>
+        <p>
+          MON, TUE, WED, THUR <br>
+          4:00 PM - 10:00 PM <br>
+          <br>
+          FRI <br>
+          4:00 PM - 11:00 PM <br>
+          <br>
+          SAT <br>
+          12:00 PM - 11:00 PM <br>
+          <br>
+          SUN <br>
+          12:00 PM - 10:00 PM <br>
+        </p>
+      </div>
+      <div id="rightGroup">
+        <div id="findUs">
+          <a href=""><img src="Facebook"></a>
+          <a href=""><img src="IG"></a>
+          <a href=""><img src="Doordash"></a>
+        </div>
+        <div id="contactUs">
+          <a>bmartinez15@r2happrentice.org</a>
+        </div>
+      </div>
+    </section>
+    <div id="websiteInfo">
+      <p id="copy">&copy; Debs Pizza</p>
+    </div>
+  </footer>
 </body>
 </html>

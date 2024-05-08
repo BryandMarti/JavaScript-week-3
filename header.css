@@ -1,0 +1,52 @@
+#header {
+  font-family: 'Brush Script MT', cursive;
+  display: flex;
+  width: 100%;
+  background-image: linear-gradient(359deg, #e58173, transparent);  z-index: 1; 
+}
+
+.headerTop {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center; 
+  padding: 10px; 
+  background-image: linear-gradient(-178deg, #a5768d, transparent);
+}
+
+.bannerLogo 
+#Logo {
+  margin: 0 20px;
+  max-width: 10vw;
+  max-height: 15vh;
+}
+
+.headerTopNav,
+#unOrderNavLink {
+  display: inline-flex;
+}
+
+.listItems {
+  padding: 0 15px;
+  font-size: xx-large;
+  display: block;
+  justify-content: space-between;
+}
+
+#search {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.searchForm {
+  margin-right: 10px; 
+}
+
+form.searchForm input[type=text] {
+  padding: 10px;
+  font-size: 16px; 
+  border: 1px solid grey;
+  width: 200px; 
+  background: #f1f1f15c;
+  border-radius: 5px;
+}
