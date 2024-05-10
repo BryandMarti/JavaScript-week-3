@@ -1,15 +1,24 @@
 @media screen and (min-width: 951px) {
-
+  * {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+  }
+  
 
 .contact {
   margin: 0;
   padding: 6rem 18rem;
 }
+
+.contact-form {
+  flex-basis: 45%;
 }
 
-* {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: x-large;
+      .contact-form  h3 {
+        padding: 0.1rem;
+      }
+
+
 }
 
 main {
@@ -22,12 +31,14 @@ main {
   padding: 0 20px;
 }
 
+
 .contact h2 {
   text-align: center;
   padding: 1rem;
 }
 
 .contact-wrapper {
+  font-family: 'Courier New', Courier, monospace;
   margin: 0.1rem 1.1rem 0 1.1rem;
   display: flex;
   border-radius: 11px;
@@ -37,13 +48,7 @@ main {
   align-content: flex-start;
 }
 
-.contact-form {
-  flex-basis: 45%;
-}
 
-      .contact-form  h3 {
-        padding: 0.1rem;
-      }
 
 .contact-info {
   flex-basis: 45%;
@@ -75,6 +80,3 @@ button[type="submit"]:hover {
   background-color: #0056b3;
 }
 
-.contact-info {
-  margin: 2rem;
-}
