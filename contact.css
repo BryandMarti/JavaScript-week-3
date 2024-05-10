@@ -19,18 +19,26 @@ main {
 
 .contact h2 {
   text-align: center;
-  margin-bottom: 30px;
+  padding: 1rem;
 }
 
 .contact-wrapper {
+  margin: 0.1rem 1.1rem 0 1.1rem;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  border-radius: 11px;
+  padding: 0.1rem 1.1rem 1.1rem 1.1rem;
+  box-shadow: 6px 14px 23px 3px black;
+  flex-direction: column;
+  align-content: flex-start;
 }
 
 .contact-form {
   flex-basis: 45%;
 }
+
+      .contact-form  h3 {
+        padding: 0.1rem;
+      }
 
 .contact-info {
   flex-basis: 45%;
@@ -43,7 +51,7 @@ main {
 input[type="text"],
 input[type="email"],
 textarea {
-  width: 100%;
+  width: 90%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -62,6 +70,6 @@ button[type="submit"]:hover {
   background-color: #0056b3;
 }
 
-.contact-info p {
-  margin-bottom: 10px;
+.contact-info {
+  margin: 2rem;
 }

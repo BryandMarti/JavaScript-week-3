@@ -10,6 +10,9 @@
     display: none;
   }
 
+  #contact.contact {
+    padding: 0;
+  }
  
   #hamburger-nav {
     display: flex;
@@ -97,6 +100,13 @@
   .contact {
     margin: 0;
   }
+
+  .contact-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }  
+
   
 .slides {
   display: none;
@@ -214,9 +224,9 @@
 
   }
 
-.contact {
-  padding: 8rem;
-}
+  .contact {
+    padding: 4rem;
+  }
 
 .slides {
   display: none;
