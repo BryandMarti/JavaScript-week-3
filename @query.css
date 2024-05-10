@@ -1,7 +1,7 @@
 @media screen and (max-width: 375px) {
   
   main {
-    background-color: #ac6fe542;
+    background-color: lightgray;
 
   }
 
@@ -93,7 +93,15 @@
   .hamburger-icon span :first-child {
     transform: none;
   }
+
+  .contact {
+    margin: 0;
+  }
   
+.slides {
+  display: none;
+}
+
   #search-input {
     padding: 10px;
     font-size: 16px; 
@@ -198,19 +206,31 @@
   margin: 0 32px 0 -31px
 }
 }
+
 @media screen and (max-width: 950px) {
-  
 
   main {
-    background-color: #ac6fe542;
+    background-color: lightgray;
 
   }
+
+.contact {
+  padding: 8rem;
+}
+
+.slides {
+  display: none;
+}
 
   .listItems img {
     max-width: 15rem;
     display: none;
   }
 
+  #toggleMenu {
+    display: flex;
+    align-items: center;
+  }
  
   #hamburger-nav {
     display: flex;
@@ -368,6 +388,7 @@
       box-shadow: 0 0 8px 8px #a6778d inset;
       max-width: 100px;
     }
+    
 
   #footerSection {
     font-family: Rockwell, 'Rockwell Nova', 'Roboto Slab', 'DejaVu Serif', 'Sitka Small', serif;

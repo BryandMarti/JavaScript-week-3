@@ -21,11 +21,26 @@
       <nav class="headerTopNav">
         <ul id="unOrderNavLink">
           <li class="listItems"><a id="home"  href="index.html"><img src="/files for photoshop/home.png" alt="Home Page"></a></li>
-          <li class="listItems"><a id="product"  href="products.html"><img src="/files for photoshop/Pick a Piece (1).png" alt="Pick a Slice"></a></li>
-          <li class="listItems"><a id="contact"  href="contact.html"><img src="/files for photoshop/Untitled-3 (1).png" alt="Contact Page"></a></li>
+          <li class="listItems"><a id="product"  href="products.html"><img src="/files for photoshop/product.png" alt="Pick a Slice"></a></li>
+          <li class="listItems"><a id="contact"  href="contact.html"><img src="/files for photoshop/contact.png" alt="Contact Page"></a></li>
         </ul>
       </nav>
-      <div id="search">
+    </div>
+    <div id="toggleMenu">
+      <nav id="hamburger-nav">
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+          </div>
+          <ul class="menu-links">
+          <li><a href="/index.html" onclick="toggleMenu()">Home</a></li>
+            <li><a href="/products.html" onclick="toggleMenu()">Pick Your Pizza</a></li>
+            <li><a href="/contact.html" onclick="toggleMenu()">Contact Us</a></li>          
+          </ul>
+        </div>
+      </nav>
     </div>
   </header>
   <main>
@@ -54,7 +69,6 @@
           </div>
           <div class="contact-info">
             <h3>Contact Information</h3>
-            <p><a href="tel:+17049777068">+1 704-977-7068</a></p>
             <p>bryanmartinez2899@gmail.com</p>
           </div>
         </div>
@@ -100,5 +114,6 @@
   </footer>
 
   <script src="contact.js"></script>
+  <script src="hamburger.js"></script>
 </body>
 </html>

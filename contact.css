@@ -1,9 +1,14 @@
+@media screen and (min-width: 951px) {
 
 
-/* contact.css */
 .contact {
   margin: 0;
   padding: 6rem 18rem;
+}
+}
+
+main {
+  background-color: lightgray;
 }
 
 .container {

@@ -3,7 +3,7 @@
 main {
   display: flex;
   justify-content: start;
-  background-color: #ac6fe542;
+  background-color: lightgray;
 }
 
 .container {
@@ -81,4 +81,13 @@ main {
 #search-bar button:active {
   opacity: .5;
 }
+}
+
+@media screen and (min-width: 1440px) {
+  #products-Call {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 15px;
+    gap: 20px 26px;
+  }
 }
