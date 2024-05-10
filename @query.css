@@ -1,8 +1,21 @@
 @media screen and (max-width: 375px) {
-  
+
   main {
     background-color: lightgray;
 
+  }
+
+  .contact-info p {
+    margin: 0;
+  }
+
+  .contact-info {
+    margin: 0.2rem;
+  }
+
+  .contact-form {
+    flex-basis: 45%;
+    width: fit-content;
   }
 
   .listItems img {
