@@ -1,0 +1,46 @@
+.ringImg {
+  display: flex;
+  margin-left: -10rem;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 30vh;
+  background-color: lightgray;
+  background-size: cover;
+}
+
+#images {
+  position: relative;
+  width: 220px;
+  height: 140px;
+  transform-style: preserve-3d;
+  animation: animate 20s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: perspective(800px) rotateZ(0deg);
+  }
+  100% {
+    transform: perspective(800px) rotateZ(360deg);
+  }
+}
+
+#images span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transform: rotateZ(calc(var(--i)* -45deg)) translateY(170px) translateX(90px);
+}
+
+#images span img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 75%;
+  height: 100%;
+  object-fit: cover;
+}

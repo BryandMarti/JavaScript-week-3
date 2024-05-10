@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="@query.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="icon" href="/files for photoshop/Pizza logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Deb's Pizza</title>
+</head>
+<body>
+  <header id="header" role="banner">
+    <div class="bannerLogo">
+      <a href="index.html"><img id="Logo" src="/files for photoshop/Pizza logo.png" alt="Pizza Logo"></a>
+    </div>
+    <div class="headerTop">
+      <nav class="headerTopNav">
+        <ul id="unOrderNavLink">
+          <li class="listItems"><a id="home"  href="index.html"><img src="/files for photoshop/home.png" alt="Home Page"></a></li>
+          <li class="listItems"><a id="product"  href="products.html"><img src="/files for photoshop/product.png" alt="Pick a Slice"></a></li>
+          <li class="listItems"><a id="contact"  href="contact.html"><img src="/files for photoshop/contact.png" alt="Contact Page"></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="toggleMenu">
+      <nav id="hamburger-nav">
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+          </div>
+          <ul class="menu-links">
+          <li><a href="/index.html" onclick="toggleMenu()">Home</a></li>
+            <li><a href="/products.html" onclick="toggleMenu()">Pick Your Pizza</a></li>
+            <li><a href="/contact.html" onclick="toggleMenu()">Contact Us</a></li>          
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <div class="contact-wrapper">
+          <div class="contact-form">
+            <h3>FeedBack</h3>
+            <form id="contact-form">
+              <div class="form-group">
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="name" autocomplete="Your Name" placeholder="Your Name">
+              </div>
+              <div class="form-group">
+                  <label for="email">Your Email</label>
+                  <input type="email" id="email" name="email" autocomplete="Email" placeholder="Your Email">
+              </div>
+              <div class="form-group">
+                  <label for="message">Your Message</label>
+                  <textarea id="message" name="message" placeholder="Your Message"></textarea>
+              </div>
+              <button type="submit">Send Message</button>
+          </form>
+          
+          </div>
+          <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p>bryanmartinez2899@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <section id="footerSection">
+      <div id="leftLocation">
+        <h3>LOCATION</h3>
+        <p>73 Dreamers Street blvd<br> Charlotte, NC <br>28204</p>
+      </div>
+      <div id="midHours">
+        <h3>HOURS</h3>
+        <p>
+          MON, TUE, WED, THUR <br>
+          4:00 PM - 10:00 PM <br>
+          <br>
+          FRI <br>
+          4:00 PM - 11:00 PM <br>
+          <br>
+          SAT <br>
+          12:00 PM - 11:00 PM <br>
+          <br>
+          SUN <br>
+          12:00 PM - 10:00 PM <br>
+        </p>
+      </div>
+      <div id="rightGroup">
+        <div class="social-media">
+          <a href="Facebook.com"><i class="fa-brands fa-facebook"></i></a>
+          <a href="Instagram.com"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div id="contactUs">
+          <a>bmartinez15@r2happrentice.org</a>
+        </div>
+      </div>
+
+    </section>
+    <div id="websiteNameRights">
+      <p id="copy">&copy; Debs Pizza</p>
+    </div>
+  </footer>
+
+  <script src="contact.js"></script>
+  <script src="hamburger.js"></script>
+</body>
+</html>

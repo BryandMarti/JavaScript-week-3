@@ -1,0 +1,93 @@
+@media screen and (min-width: 951px) {
+
+main {
+  display: flex;
+  justify-content: start;
+  background-color: lightgray;
+}
+
+.container {
+  max-width: 930px;
+}
+
+#products-Call div:hover {
+  transform: scale(1.1);
+}
+
+#products-Call {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 15px;
+  gap: 20px 26px;
+}
+
+#products-Call h3, p {
+  padding: 5px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#products-Call img {
+  box-shadow: 0 0 8px 8px #a6778d inset;
+  max-width: 200px;
+}
+
+#search-input {
+  padding: 10px;
+  font-size: 16px; 
+  border: 1px solid grey;
+  width: 200px; 
+  background: #f1f1f15c;
+  border-radius: 5px;
+}
+
+#search-bar {
+  display: flex;
+  align-items: start;
+  margin: 1rem;
+}
+
+#search-bar button {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+#search-bar button:hover,
+#search-bar button:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+#search-bar button:active {
+  opacity: .5;
+}
+}
+
+@media screen and (min-width: 1440px) {
+  #products-Call {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 15px;
+    gap: 20px 26px;
+  }
+}

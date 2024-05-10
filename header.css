@@ -1,0 +1,54 @@
+#header {
+  font-family: 'Brush Script MT', cursive;
+  display: flex;
+  width: 100%;
+  background-image: linear-gradient(359deg, #e58173, transparent);  z-index: 1; 
+}
+
+.headerTop {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center; 
+  padding: 10px; 
+  background-image: linear-gradient(90deg, #a5768d, transparent);
+}
+
+.bannerLogo {
+  display: flex;
+  box-shadow: 0 0 8px 8px #a6778d inset;
+}
+
+.bannerLogo 
+#Logo {
+  margin: 0 20px;
+  max-width: 15vw;
+  max-height: 15vh;
+}
+
+.headerTopNav,
+#unOrderNavLink {
+  display: flex;
+}
+
+.listItems {
+  padding: 0 15px;
+  font-size: xx-large;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.listItems img {
+  max-width: 15rem;
+}
+
+#search {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.searchForm {
+  margin-right: 10px; 
+}
+

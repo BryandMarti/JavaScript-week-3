@@ -1,0 +1,435 @@
+@media screen and (max-width: 375px) {
+  
+  main {
+    background-color: lightgray;
+
+  }
+
+  .listItems img {
+    max-width: 15rem;
+    display: none;
+  }
+
+ 
+  #hamburger-nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .hamburger-menu {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .hamburger-icon {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+  }
+  
+  .hamburger-icon span {
+    
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .menu-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #df847d;
+    border-radius: 25.2px 0 27px 30px;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+  }
+  
+  .menu-links a {
+    font-family: monospace;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3 ease-in-out;
+  }
+  
+  .menu-links li {
+    list-style: none;
+    border: 0.5px solid #00000059; 
+  }
+  
+  .menu-links.open {
+    max-height: 300px;
+    width: 150px;
+  }
+  
+  .hamburger-icon.open span:first-child {
+    transform: rotate(45deg) translate(10px, 5px);
+  }
+  .hamburger-icon.open span:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger-icon.open span:last-child {
+    transform: rotate(-45deg) translate(10px, -5px);
+  }
+  
+  .hamburger-icon span :first-child {
+    transform: none;
+  }
+  
+  .hamburger-icon span :first-child {
+    opacity: 1;
+  }
+  
+  .hamburger-icon span :first-child {
+    transform: none;
+  }
+
+  .contact {
+    margin: 0;
+  }
+  
+.slides {
+  display: none;
+}
+
+  #search-input {
+    padding: 10px;
+    font-size: 16px; 
+    border: 1px solid grey;
+    width: 200px; 
+    background: #f1f1f15c;
+    border-radius: 5px;
+  }
+  
+  #search-bar {
+    display: flex;
+    align-items: start;
+    padding: 15px;
+  }
+  
+  #search-bar button {
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+  }
+  
+  #search-bar button:hover,
+  #search-bar button:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742;
+  }
+  
+  #search-bar button:active {
+    opacity: .5;
+  }
+
+  #heroImgFull{
+    display: none;
+  }
+
+  #heroImgIphone {
+    display: block;
+      width: -moz-available;   
+      width: -webkit-fill-available; 
+      width: fill-available;
+    }
+    
+    #products-Call {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      padding: 15px;
+      gap: 20px 26px;
+    }
+
+    #products-Call img {
+      box-shadow: 0 0 8px 8px #a6778d inset;
+      max-width: 100px;
+    }
+
+  #footerSection {
+    font-family: Rockwell, 'Rockwell Nova', 'Roboto Slab', 'DejaVu Serif', 'Sitka Small', serif;
+    font-size: medium;
+    font-weight: 300;
+    padding: 20px 0 0 0;
+    display: inline-flex;
+    width: 100%;
+    background-image: linear-gradient(-178deg, #1f2845, #00000026);
+    z-index: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    text-shadow: -1px -4px 20px white;
+    flex-wrap: wrap;
+  }
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.social-media a {
+  max-width: 10px;
+}
+
+#PaS button {
+  margin: 0 32px 0 -31px
+}
+}
+
+@media screen and (max-width: 950px) {
+
+  main {
+    background-color: lightgray;
+
+  }
+
+.contact {
+  padding: 8rem;
+}
+
+.slides {
+  display: none;
+}
+
+  .listItems img {
+    max-width: 15rem;
+    display: none;
+  }
+
+  #toggleMenu {
+    display: flex;
+    align-items: center;
+  }
+ 
+  #hamburger-nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .hamburger-menu {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .hamburger-icon {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+  }
+  
+  .hamburger-icon span {
+    
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .menu-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #df847d;
+    border-radius: 25.2px 0 27px 30px;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+  }
+  
+  .menu-links a {
+    font-family: monospace;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3 ease-in-out;
+  }
+  
+  .menu-links li {
+    list-style: none;
+    border: 0.5px solid #00000059; 
+  }
+  
+  .menu-links.open {
+    max-height: 300px;
+    width: 150px;
+  }
+  
+  .hamburger-icon.open span:first-child {
+    transform: rotate(45deg) translate(10px, 5px);
+  }
+  .hamburger-icon.open span:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger-icon.open span:last-child {
+    transform: rotate(-45deg) translate(10px, -5px);
+  }
+  
+  .hamburger-icon span :first-child {
+    transform: none;
+  }
+  
+  .hamburger-icon span :first-child {
+    opacity: 1;
+  }
+  
+  .hamburger-icon span :first-child {
+    transform: none;
+  }
+  
+  #search-input {
+    padding: 10px;
+    font-size: 16px; 
+    border: 1px solid grey;
+    width: 200px; 
+    background: #f1f1f15c;
+    border-radius: 5px;
+  }
+  
+  #search-bar {
+    display: flex;
+    align-items: start;
+    padding: 15px;
+  }
+  
+  #search-bar button {
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+  }
+  
+  #search-bar button:hover,
+  #search-bar button:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742;
+  }
+  
+  #search-bar button:active {
+    opacity: .5;
+  }
+
+  #heroImgFull{
+    display: none;
+  }
+
+  #heroImgIphone {
+    display: block;
+      width: -moz-available;   
+      width: -webkit-fill-available; 
+      width: fill-available;
+    }
+    
+    #products-Call {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      padding: 15px;
+      gap: 20px 26px;
+    }
+
+    #products-Call img {
+      box-shadow: 0 0 8px 8px #a6778d inset;
+      max-width: 100px;
+    }
+    
+
+  #footerSection {
+    font-family: Rockwell, 'Rockwell Nova', 'Roboto Slab', 'DejaVu Serif', 'Sitka Small', serif;
+    font-size: medium;
+    font-weight: 300;
+    padding: 20px 0 0 0;
+    display: inline-flex;
+    width: 100%;
+    background-image: linear-gradient(-178deg, #1f2845, #00000026);
+    z-index: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    text-shadow: -1px -4px 20px white;
+    flex-wrap: wrap;
+  }
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.social-media a {
+  max-width: 10px;
+}
+
+#PaS button {
+  margin: 0 32px 0 -31px
+}
+}
+
+@media screen and (min-width: 951px) {
+  #toggleMenu {
+    display: none;
+  }
+
+  #products-Call {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 15px;
+    gap: 20px 26px;
+  }
+}
