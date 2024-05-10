@@ -11,26 +11,36 @@
   justify-content: flex-end;
   align-items: center; 
   padding: 10px; 
-  background-image: linear-gradient(-178deg, #a5768d, transparent);
+  background-image: linear-gradient(90deg, #a5768d, transparent);
+}
+
+.bannerLogo {
+  display: flex;
+  box-shadow: 0 0 8px 8px #a6778d inset;
 }
 
 .bannerLogo 
 #Logo {
   margin: 0 20px;
-  max-width: 10vw;
+  max-width: 15vw;
   max-height: 15vh;
 }
 
 .headerTopNav,
 #unOrderNavLink {
-  display: inline-flex;
+  display: flex;
 }
 
 .listItems {
   padding: 0 15px;
   font-size: xx-large;
-  display: block;
+  display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.listItems img {
+  max-width: 15rem;
 }
 
 #search {
@@ -42,11 +52,3 @@
   margin-right: 10px; 
 }
 
-form.searchForm input[type=text] {
-  padding: 10px;
-  font-size: 16px; 
-  border: 1px solid grey;
-  width: 200px; 
-  background: #f1f1f15c;
-  border-radius: 5px;
-}

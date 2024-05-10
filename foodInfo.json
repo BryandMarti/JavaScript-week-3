@@ -1,18 +1,75 @@
-  "Pizza-Slices": [
+[
     {
-      "Pizza-Slice0": "Buffalo Chicken Pizza",
-      "ingredients": "3 Cheese" "Diced Buffalo Sauce Chicken" "Tomato Sauce" "Stuffed Crust" ,    
-      "price": "$3.79"
+      "name": "Buffalo Chicken Pizza",
+      "ingredients": "3 Cheese, Diced Buffalo Sauce Chicken, Tomato Sauce, Stuffed Crust",
+      "price": "$3.79",
+      "image": "/files for photoshop/Pizza Join Photos/Buffalo Chicken Cheese Pizza.png"
+
     },
     {
-      "Pizza-Slice1": "Cheese and Onions Pizza",
-      "ingredients": "Four Cheese" "Cooked Onion Rings" "" "Stuffed Crust" ,    
-      "price": "$3.79"
+      "name": "Cheese and Onions Pizza",
+      "ingredients": "Four Cheese, and Cooked Onion Rings",
+      "price": "$3.79",
+      "image": "/files for photoshop/Pizza Join Photos/Cheese and Onions Pizza.png"
     },
-    
-
-
-
-
-=========================
-"kindOfPizza": ["Buffalo Chicken Pizza", "Cheese and Onions Pizza", "Ham and Cheese Pizza", "Mushroom and Pepperoni Pizza", "Portobello Pizza", "Tomato Pizza", "Pepperoni Pizza", "Vegeteronie Pizza"],
+    {
+      "name": "Mushroomroni Pizza",
+      "ingredients": "Mushrooms, and Pepperoni",
+      "price": "$3.79",
+      "image": "/files for photoshop/Pizza Join Photos/Mushruronie Pizza.png"
+    },
+    {
+      "name": "Pepperoni Pizza",
+      "ingredients": "Pepperoni, and Cheese Stuffed Crust ",
+      "price": "$3.79",
+      "image": "/files for photoshop/Pizza Join Photos/Peperoni Pizza.png"
+    },
+    {
+      "name": "Portobello Pizza",
+      "ingredients": "Cheese Pizza, Topped with Portobello Mushrooms ",
+      "price": "$3.49",
+      "image": "/files for photoshop/Pizza Join Photos/Portobello Pizza.png"
+    },
+    {
+      "name": "Tomato Pizza",
+      "ingredients": "Chunky Tomato Slices, and Olives",
+      "price": "$3.49",
+      "image": "/files for photoshop/Pizza Join Photos/Tomato Pizza.png"
+    },
+    {
+      "name": "Veggteronie Pizza",
+      "ingredients": "Bell Pepper, Olives, Spinash, Diced Tomato, Pepperoni",
+      "price": "$3.99",
+      "image": "/files for photoshop/Pizza Join Photos/Vegeteronie Pizza.png"
+    },
+    {
+      "name": "Ham and Cheese",
+      "ingredients": "Ham meat, with four CHeese and Tomato Sauce",
+      "price": "$3.25",
+      "image": "/files for photoshop/Pizza Join Photos/Ham and Cheese.png"
+    },
+    {
+      "name": "The No Limitations Pizza, Whole Pizza",
+      "ingredients": "Build you Own Pizza",
+      "price": "$16.99",
+      "image": "/files for photoshop/thenolimitationpizza.png"
+    },
+    {
+      "name": "Olives and Pepperoni Pizza",
+      "ingredients": "Pepperoni, Olives and Cheese",
+      "price": "$16.99",
+      "image": "/files for photoshop/olivespepperoni.png"
+    },
+    {
+      "name": "Veggie Pizza",
+      "ingredients": "All Veggies on the table, and Alfredo Sauce",
+      "price": "$15.50",
+      "image": "/files for photoshop/veggiepizza.png"
+    },
+    {
+      "name": "The Get to Know Yourself Pizza",
+      "ingredients": "Including each one of the tasty slices into 1 whole Pizza",
+      "price": "$18.25",
+      "image": "/files for photoshop/thegettoknowyourself.png"
+    }
+  ]

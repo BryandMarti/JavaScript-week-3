@@ -1,7 +1,7 @@
 .ringImg {
   display: flex;
-  padding-right: 5vw;
-  justify-content: flex-end;
+  margin-left: -10rem;
+  justify-content: flex-start;
   align-items: center;
   min-height: 30vh;
   background-color: lightgray;
@@ -10,18 +10,18 @@
 
 #images {
   position: relative;
-  width: 200px;
-  height: 100px;
+  width: 220px;
+  height: 140px;
   transform-style: preserve-3d;
-  animation: animate 20s linear infinite;
+  animation: animate 20s ease-in-out infinite;
 }
 
 @keyframes animate {
   0% {
-    transform: perspective(800px) rotateY(0deg);
+    transform: perspective(800px) rotateZ(0deg);
   }
   100% {
-    transform: perspective(800px) rotateY(360deg);
+    transform: perspective(800px) rotateZ(360deg);
   }
 }
 
@@ -33,15 +33,14 @@
   height: 100%;
   transform-origin: center;
   transform-style: preserve-3d;
-  transform: rotateY(calc(var(--i)* 45deg)) translateZ(400px);
-  -webkit-box-reflect: below 0px linear-gradient(transparent, transparent, #0004);
+  transform: rotateZ(calc(var(--i)* -45deg)) translateY(170px) translateX(90px);
 }
 
 #images span img {
   position: absolute;
   top: 0;
   left: 0;
-  width: 50%;
+  width: 75%;
   height: 100%;
   object-fit: cover;
 }
