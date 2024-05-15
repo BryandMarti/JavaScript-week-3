@@ -237,6 +237,10 @@
 
   }
 
+  .slides div {
+    padding: 3rem;
+}
+
   .contact {
     padding: 4rem;
   }
@@ -448,6 +452,10 @@
   #toggleMenu {
     display: none;
   }
+
+  .slides div {
+    padding: 3rem;
+}
 
   #products-Call {
     display: grid;
