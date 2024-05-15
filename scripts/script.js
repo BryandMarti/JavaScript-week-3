@@ -5,7 +5,7 @@ const searchInput = document.getElementById('search-input');
 const searchButton = document.getElementById('search-button');
 
 // Fetch JSON data and populate products
-fetch('foodInfo.json')
+fetch('/scripts/foodInfo.json')
   .then(res => res.json())
   .then(data => {
     sliceContainer = data;
